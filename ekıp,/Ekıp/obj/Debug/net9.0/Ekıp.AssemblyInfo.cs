@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ekıp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5860b80fd7d1db8bd4aa3e78a446b26038afd19a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ekıp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ekıp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

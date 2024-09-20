@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ben\\Desktop\\ekıp,\\Ekıp\\Ekıp.csproj": {}
+    "C:\\Users\\ben\\source\\repos\\yzlEk-p\\ekıp,\\Ekıp\\Ekıp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ben\\Desktop\\ekıp,\\Ekıp\\Ekıp.csproj": {
+    "C:\\Users\\ben\\source\\repos\\yzlEk-p\\ekıp,\\Ekıp\\Ekıp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ben\\Desktop\\ekıp,\\Ekıp\\Ekıp.csproj",
+        "projectUniqueName": "C:\\Users\\ben\\source\\repos\\yzlEk-p\\ekıp,\\Ekıp\\Ekıp.csproj",
         "projectName": "Ekıp",
-        "projectPath": "C:\\Users\\ben\\Desktop\\ekıp,\\Ekıp\\Ekıp.csproj",
+        "projectPath": "C:\\Users\\ben\\source\\repos\\yzlEk-p\\ekıp,\\Ekıp\\Ekıp.csproj",
         "packagesPath": "C:\\Users\\ben\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ben\\Desktop\\ekıp,\\Ekıp\\obj\\",
+        "outputPath": "C:\\Users\\ben\\source\\repos\\yzlEk-p\\ekıp,\\Ekıp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -49,6 +49,20 @@ namespace Ekip
         /*  int a =  SeslıHarf("sAAAAiid");
           Console.WriteLine(a);*/
          
+        /* string girdi = "said";
+        char arananKarakter = 'a';
+        int sonuc = KaçKez(girdi, arananKarakter);
+        Console.WriteLine($"'{arananKarakter}' karakteri {sonuc} kez geçiyor.");*/
+
+        /*int a =KelımeSayısı("MUHAMMED SAİD ERUSLU");
+        Console.WriteLine(a);*/
+
+       /*int a = IkıSayı(3,2);
+       Console.WriteLine(a);*/
+        int[] b = {3,213,1241,24,124};
+      int a = EnBüyük(b);
+       Console.WriteLine(a);
+ 
         }
         static long Fıbonaccı(long a = 30)
         {
@@ -118,14 +132,14 @@ namespace Ekip
 
         static int[] Pascal(int n)
         {
-            int[] row = new int[n + 1];
-            row[0] = 1; // ilk eleman bastan baslar
+            int[] satır = new int[n + 1];
+            satır[0] = 1; // ilk eleman bastan baslar
 
             for(int i = 1; i <= n; i++)
             {
-                row[i] = row[i -1] * (n - i +1) /i;
+                satır[i] = satır[i -1] * (n - i +1) /i;
             }
-                return row;
+                return satır;
         }
 
         //Bir sayının asal olup olmadığını kontrol eden bir metot yazın.
@@ -231,6 +245,7 @@ namespace Ekip
         }
         else
         {
+        
             foreach(var i in a)
             {
                 if(i == b)
@@ -242,6 +257,43 @@ namespace Ekip
         return sayac;
        }
 
+      // Bir metot yazın, verilen cümlenin kelime sayısını hesaplasın.
 
+      static int KelımeSayısı(string a)
+      {
+        int sayac = 0;
+
+       for(int i = 0; i <= a.Length; i++)
+       {
+        sayac++;
+       }
+       return sayac++;
+      }
+
+        // Bir metot kullanarak iki sayının toplamını hesaplayan bir algoritma yazın.
+
+        static int IkıSayı(int a, int b)
+        {
+            return a+b;
+        }
+
+       // Bir dizideki en büyük elemanı bulan bir metot yazın.
+
+       static int EnBüyük(int[]a)
+       {
+        
+        int enBuyuk = a[0];
+
+        foreach(var i in a)
+        {
+            if(i > enBuyuk)
+            {
+                enBuyuk = i;
+            }
+        }
+        return enBuyuk;
+       }
+
+       
     }
 }
